@@ -1,0 +1,41 @@
+ //Clk (pretty self explanetory)
+NET "clk" LOC = "B8";
+
+//Seven Segment Display
+NET "disp[0]" LOC = "L14";
+NET "disp[1]" LOC = "H12";
+NET "disp[2]" LOC = "N14";
+NET "disp[3]" LOC = "N11";
+NET "disp[4]" LOC = "P12";
+NET "disp[5]" LOC = "L13";
+NET "disp[6]" LOC = "M12";
+
+//Seven Segment choose spot
+NET "an[0]" LOC = "K14";
+NET "an[1]" LOC = "M13";
+NET "an[2]" LOC = "J12";
+NET "an[3]" LOC = "F12";
+
+//leds
+#NET "turnClseLed" LOC = "P7";
+NET "echoPulse" LOC = "G1";
+#NET "upLed" LOC = "N4";
+#NET "rightLed" LOC = "N5";
+
+//Sensor Trigger and echo signals
+NET "trigger" LOC = "J3";
+NET "echo" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "echo" LOC = "B5";
+
+//Remote signals
+NET "ir" LOC = "D12";
+
+//Motor signals
+NET "pulseLeft" LOC = "B6";
+NET "pulseRight" LOC = "B9";
+
+//Light Detector
+NET "lightDetector" LOC = "C13";
+
+//Pizo Speaker
+NET "speaker" LOC = "A9";
