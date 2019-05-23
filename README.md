@@ -9,5 +9,5 @@ Final project for digital circuits, fpga robot coded in verilog
 a soundbox, infared sensor, and a Digilent Basys2-Basys3 board.  Your constraints file will need to reflect which board and environemt
 you are using.
 
--Our Robot was controlled by a Sony tv remote, my partner did not decode the remote signal but rather counted the wavelenght 
-coming in.  An improvement on the project would be to decote the signal coming in making it a more accurate reading.
+-Our Robot was controlled by a Sony tv remote, my partner did not decode the remote signal but rather counted the wavelength 
+coming in.  An improvement on the project would be to decode the signal coming in making it a more accurate reading.
